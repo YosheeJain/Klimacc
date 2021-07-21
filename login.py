@@ -64,7 +64,7 @@ txtpassword.place(relx=0.01, rely=0.7, relwidth=0.98, relheight=0.09)
 # creating lists for checking conditions in password check
 lstusernamesandpasswords = []
 
-mydb = mysql.connector.connect(host="localhost", user="root", password="Sargun05", database='klimaccdata', port=3307)
+mydb = mysql.connector.connect(host="localhost", user="root", password="SUCCESS@240804#", database='klimaccdata')
 mycursor = mydb.cursor()
 
 # getting the records of the registered users
