@@ -59,7 +59,7 @@ def tablefunctions(function):
 def mysqlmaking():
     """Creates the databases and the table"""
     global mydb
-    mydb = mysql.connect(host="localhost", user="root", password="Sargun05", db="test", port=3307)
+    mydb = mysql.connect(host="localhost", user="root", password="SUCCESS@240804#", db="test")
     mycur = mydb.cursor(buffered=True)
     mycur.execute("create database if not exists klimaccdata;")
     mycur.execute("use klimaccdata;")
