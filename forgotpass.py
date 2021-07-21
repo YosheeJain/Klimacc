@@ -108,7 +108,7 @@ txtresetpass1confirm.place(relx=0.54, rely=0.77, relwidth=0.4, relheight=0.05)
 
 # connecting to mysql
 
-mydb = mysql.connector.connect(host="localhost", user="root", password="Sargun05", database='klimaccdata', port=3307)
+mydb = mysql.connector.connect(host="localhost", user="root", password="SUCCESS@240804#", database='klimaccdata')
 mycursor = mydb.cursor()
 mycursor.execute('USE klimaccdata')
 mydb.commit()
