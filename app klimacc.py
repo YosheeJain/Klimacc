@@ -38,7 +38,7 @@ btnnext.place(relx=0.8, rely=0.9, relwidth=0.18, relheight=0.07)
 
 # connecting to mysql to creating the databases required for further purposes
 
-mydb = mysql.connector.connect(host="localhost", user="root", password="Sargun05", database='test', port=3307)
+mydb = mysql.connector.connect(host="localhost", user="root", password="SUCCESS@240804#", database='test')
 mycursor = mydb.cursor()
 mycursor = mydb.cursor(buffered=True)
 mycursor.execute("Create database if not exists klimaccdata")
