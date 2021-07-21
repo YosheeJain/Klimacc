@@ -76,7 +76,7 @@ txtconfirmpassword.place(relx=0.53, rely=0.85, relwidth=0.45, relheight=0.08)
 lstusernamesandpasswords = []
 
 # connecting to mysql
-mydb = mysql.connector.connect(host="localhost", user="root", password="Sargun05", database='klimaccdata', port=3307)
+mydb = mysql.connector.connect(host="localhost", user="root", password="SUCCESS@240804#", database='klimaccdata')
 mycursor = mydb.cursor()
 mycursor.execute('USE klimaccdata')
 
